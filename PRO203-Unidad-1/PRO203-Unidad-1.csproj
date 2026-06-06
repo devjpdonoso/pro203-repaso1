@@ -9,4 +9,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\pro203-repaso1.Business\PRO203-Unidad-1.Business.csproj" />
+    <ProjectReference Include="..\PRO203_Unidad_1.Support\PRO203_Unidad_1.Support.csproj" />
+  </ItemGroup>
+
 </Project>

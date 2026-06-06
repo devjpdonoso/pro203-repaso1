@@ -1,17 +1,20 @@
+using pro203_repaso1.Business;
+using PRO203_Unidad_1.Support;
+
 namespace PRO203_Unidad_1
 {
     public partial class frmVideojuegos : Form
-    {
-        List<Videojuego> Videojuegos;  // <= Declarando su existencia
-        int semilla;
+    {      
         Videojuego juegoModificar;
+        VideoJuegoBusiness juegoBusiness;
+
 
         public frmVideojuegos()
         {
             InitializeComponent();
-            Videojuegos = new List<Videojuego>();   // <= Inicializando el elemento.
-            semilla = 1;
-            txtIdentificador.Text = semilla.ToString();
+            juegoBusiness = new VideoJuegoBusiness();
+            ActualizarGrilla();
+            LimpiarCampos();
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -30,22 +33,28 @@ namespace PRO203_Unidad_1
                     }
                     else {
                         juego = new Videojuego();
-                        juego.Identificador = semilla;
-                        Videojuegos.Add(juego);
-                        semilla++;
                     } 
 
                     juego.Nombre = txtNombre.Text;
                     juego.Categoria = txtCategoria.Text;
-                    juego.HorasJugadas = Convert.ToInt32(txtHorasJugadas.Text);                  
+                    juego.HorasJugadas = Convert.ToInt32(txtHorasJugadas.Text);
+
+                    if (juegoModificar == null)
+                    {
+                        juegoBusiness.Crear(juego);
+                    }
+                    else {
+                        juegoBusiness.Modificar(juego);
+                    }
 
                     ActualizarGrilla();
                     LimpiarCampos();
+                    MessageBox.Show("Operación Correcta", "OK", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 }
                 else
                 {
-                    MessageBox.Show(mensajeError);
+                    MessageBox.Show(mensajeError, "Faltan campos requeridos", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 }
             }
             catch (Exception ex)
@@ -56,11 +65,11 @@ namespace PRO203_Unidad_1
         }
 
         private void LimpiarCampos() {
-            juegoModificar = null;
-            txtIdentificador.Text = semilla.ToString();
+            juegoModificar = null;          
             txtNombre.Text = string.Empty;
             txtCategoria.Text = string.Empty;
             txtHorasJugadas.Text = string.Empty;
+            btnGuardar.Text = "Crear";
 
         }
 
@@ -69,10 +78,7 @@ namespace PRO203_Unidad_1
             string mensaje = string.Empty;
             int valueExit = 0;
 
-            if (int.TryParse(txtIdentificador.Text, out valueExit) == false)
-            {
-                mensaje = mensaje + "El identificador no es válido" + Environment.NewLine;
-            }
+
             if (!int.TryParse(txtHorasJugadas.Text, out valueExit))
             {
                 mensaje = mensaje + "Las Horas jugadas no son válidas" + Environment.NewLine;
@@ -93,7 +99,7 @@ namespace PRO203_Unidad_1
         private void ActualizarGrilla()
         {
             dgvJuegos.DataSource = null;
-            dgvJuegos.DataSource = Videojuegos;
+            dgvJuegos.DataSource = juegoBusiness.ObtenerTodos();
         }
 
         private void dgvJuegos_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -102,13 +108,12 @@ namespace PRO203_Unidad_1
             
                 DataGridViewRow fila = dgvJuegos.Rows[e.RowIndex];
                 int idSeleccionado = Convert.ToInt32(fila.Cells[0].Value.ToString());
-                MessageBox.Show(idSeleccionado.ToString());
-
-                juegoModificar = Videojuegos.Where( x=> x.Identificador == idSeleccionado ).First();
+                juegoModificar = juegoBusiness.ObtenerPorId(idSeleccionado);
                 txtIdentificador.Text = juegoModificar.Identificador.ToString();
                 txtNombre.Text = juegoModificar.Nombre.ToString();
                 txtCategoria.Text = juegoModificar.Categoria.ToString();
-                txtHorasJugadas.Text = juegoModificar.HorasJugadas.ToString();                 
+                txtHorasJugadas.Text = juegoModificar.HorasJugadas.ToString();
+                btnGuardar.Text = "Actualizar";
             }
         }
     }

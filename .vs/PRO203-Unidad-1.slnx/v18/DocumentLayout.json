@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repositorios\\pro203-repaso1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AB0B81-2316-4DF1-9AF7-A44D456BF31F}|PRO203_Unidad_1.DataAccess\\PRO203_Unidad_1.DataAccess.csproj|c:\\repositorios\\pro203-repaso1\\pro203_unidad_1.dataaccess\\videojuegodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AB0B81-2316-4DF1-9AF7-A44D456BF31F}|PRO203_Unidad_1.DataAccess\\PRO203_Unidad_1.DataAccess.csproj|solutionrelative:pro203_unidad_1.dataaccess\\videojuegodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VideojuegoDataAccess.cs",
+              "DocumentMoniker": "C:\\Repositorios\\pro203-repaso1\\PRO203_Unidad_1.DataAccess\\VideojuegoDataAccess.cs",
+              "RelativeDocumentMoniker": "PRO203_Unidad_1.DataAccess\\VideojuegoDataAccess.cs",
+              "ToolTip": "C:\\Repositorios\\pro203-repaso1\\PRO203_Unidad_1.DataAccess\\VideojuegoDataAccess.cs",
+              "RelativeToolTip": "PRO203_Unidad_1.DataAccess\\VideojuegoDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T18:47:01.401Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -123,6 +123,7 @@
             // 
             txtIdentificador.Location = new Point(117, 33);
             txtIdentificador.Name = "txtIdentificador";
+            txtIdentificador.ReadOnly = true;
             txtIdentificador.Size = new Size(222, 23);
             txtIdentificador.TabIndex = 1;
             // 

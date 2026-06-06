@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>pro203_repaso1.Business</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PRO203_Unidad_1.DataAccess\PRO203_Unidad_1.DataAccess.csproj" />
+    <ProjectReference Include="..\PRO203_Unidad_1.Support\PRO203_Unidad_1.Support.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="pro203-repaso1.Business/PRO203-Unidad-1.Business.csproj" Id="21d1e0c0-dcd1-4a33-b76f-ee271b0246bb" />
   <Project Path="PRO203-Unidad-1/PRO203-Unidad-1.csproj" />
+  <Project Path="PRO203_Unidad_1.DataAccess/PRO203_Unidad_1.DataAccess.csproj" Id="b3ab0b81-2316-4df1-9af7-a44d456bf31f" />
+  <Project Path="PRO203_Unidad_1.Support/PRO203_Unidad_1.Support.csproj" Id="748ac0b0-1ed9-42d1-86c0-b1a42d659ea6" />
 </Solution>

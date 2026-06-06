@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PRO203_Unidad_1
+namespace PRO203_Unidad_1.Support
 {
     public class Videojuego
     {
@@ -12,4 +12,3 @@ namespace PRO203_Unidad_1
         public int HorasJugadas { get; set; }
     }
 }
-// DTO: Data Transfer Object
