@@ -1,0 +1,16 @@
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\bin\Debug\net10.0-windows\PRO203-Unidad-1.exe
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\bin\Debug\net10.0-windows\PRO203-Unidad-1.deps.json
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\bin\Debug\net10.0-windows\PRO203-Unidad-1.runtimeconfig.json
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\bin\Debug\net10.0-windows\PRO203-Unidad-1.dll
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\bin\Debug\net10.0-windows\PRO203-Unidad-1.pdb
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\PRO203_Unidad_1.frmVideojuegos.resources
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\PRO203-Unidad-1.csproj.GenerateResource.cache
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\PRO203-Unidad-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\PRO203-Unidad-1.AssemblyInfoInputs.cache
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\PRO203-Unidad-1.AssemblyInfo.cs
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\PRO203-Unidad-1.csproj.CoreCompileInputs.cache
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\PRO203-Unidad-1.dll
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\refint\PRO203-Unidad-1.dll
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\PRO203-Unidad-1.pdb
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\PRO203-Unidad-1.genruntimeconfig.cache
+C:\Users\devjp\source\repos\PRO203-Unidad-1\PRO203-Unidad-1\obj\Debug\net10.0-windows\ref\PRO203-Unidad-1.dll
