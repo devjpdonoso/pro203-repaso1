@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Repositorios\\pro203-repaso1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{21D1E0C0-DCD1-4A33-B76F-EE271B0246BB}|pro203-repaso1.Business\\PRO203-Unidad-1.Business.csproj|c:\\repositorios\\pro203-repaso1\\pro203-repaso1.business\\videojuegobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21D1E0C0-DCD1-4A33-B76F-EE271B0246BB}|pro203-repaso1.Business\\PRO203-Unidad-1.Business.csproj|solutionrelative:pro203-repaso1.business\\videojuegobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AB0B81-2316-4DF1-9AF7-A44D456BF31F}|PRO203_Unidad_1.DataAccess\\PRO203_Unidad_1.DataAccess.csproj|c:\\repositorios\\pro203-repaso1\\pro203_unidad_1.dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AB0B81-2316-4DF1-9AF7-A44D456BF31F}|PRO203_Unidad_1.DataAccess\\PRO203_Unidad_1.DataAccess.csproj|solutionrelative:pro203_unidad_1.dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF96136-7B8D-15E6-2D4D-44AE2CB9922C}|PRO203-Unidad-1\\PRO203-Unidad-1.csproj|c:\\repositorios\\pro203-repaso1\\pro203-unidad-1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5AF96136-7B8D-15E6-2D4D-44AE2CB9922C}|PRO203-Unidad-1\\PRO203-Unidad-1.csproj|solutionrelative:pro203-unidad-1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AB0B81-2316-4DF1-9AF7-A44D456BF31F}|PRO203_Unidad_1.DataAccess\\PRO203_Unidad_1.DataAccess.csproj|c:\\repositorios\\pro203-repaso1\\pro203_unidad_1.dataaccess\\entities\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AB0B81-2316-4DF1-9AF7-A44D456BF31F}|PRO203_Unidad_1.DataAccess\\PRO203_Unidad_1.DataAccess.csproj|solutionrelative:pro203_unidad_1.dataaccess\\entities\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3AB0B81-2316-4DF1-9AF7-A44D456BF31F}|PRO203_Unidad_1.DataAccess\\PRO203_Unidad_1.DataAccess.csproj|c:\\repositorios\\pro203-repaso1\\pro203_unidad_1.dataaccess\\videojuegodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3AB0B81-2316-4DF1-9AF7-A44D456BF31F}|PRO203_Unidad_1.DataAccess\\PRO203_Unidad_1.DataAccess.csproj|solutionrelative:pro203_unidad_1.dataaccess\\videojuegodataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{748AC0B0-1ED9-42D1-86C0-B1A42D659EA6}|PRO203_Unidad_1.Support\\PRO203_Unidad_1.Support.csproj|c:\\repositorios\\pro203-repaso1\\pro203_unidad_1.support\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{748AC0B0-1ED9-42D1-86C0-B1A42D659EA6}|PRO203_Unidad_1.Support\\PRO203_Unidad_1.Support.csproj|solutionrelative:pro203_unidad_1.support\\videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Repositorios\\pro203-repaso1\\PRO203-Unidad-1\\App.config",
+              "RelativeDocumentMoniker": "PRO203-Unidad-1\\App.config",
+              "ToolTip": "C:\\Repositorios\\pro203-repaso1\\PRO203-Unidad-1\\App.config",
+              "RelativeToolTip": "PRO203-Unidad-1\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-09T00:37:56.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VideoJuegoBusiness.cs",
+              "DocumentMoniker": "C:\\Repositorios\\pro203-repaso1\\pro203-repaso1.Business\\VideoJuegoBusiness.cs",
+              "RelativeDocumentMoniker": "pro203-repaso1.Business\\VideoJuegoBusiness.cs",
+              "ToolTip": "C:\\Repositorios\\pro203-repaso1\\pro203-repaso1.Business\\VideoJuegoBusiness.cs",
+              "RelativeToolTip": "pro203-repaso1.Business\\VideoJuegoBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T23:49:35.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Repositorios\\pro203-repaso1\\PRO203_Unidad_1.DataAccess\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PRO203_Unidad_1.DataAccess\\AppDbContext.cs",
+              "ToolTip": "C:\\Repositorios\\pro203-repaso1\\PRO203_Unidad_1.DataAccess\\AppDbContext.cs",
+              "RelativeToolTip": "PRO203_Unidad_1.DataAccess\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-09T00:03:27.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "VideojuegoDataAccess.cs",
               "DocumentMoniker": "C:\\Repositorios\\pro203-repaso1\\PRO203_Unidad_1.DataAccess\\VideojuegoDataAccess.cs",
               "RelativeDocumentMoniker": "PRO203_Unidad_1.DataAccess\\VideojuegoDataAccess.cs",
               "ToolTip": "C:\\Repositorios\\pro203-repaso1\\PRO203_Unidad_1.DataAccess\\VideojuegoDataAccess.cs",
               "RelativeToolTip": "PRO203_Unidad_1.DataAccess\\VideojuegoDataAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-06T18:47:01.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Videojuego.cs",
+              "DocumentMoniker": "C:\\Repositorios\\pro203-repaso1\\PRO203_Unidad_1.DataAccess\\Entities\\Videojuego.cs",
+              "RelativeDocumentMoniker": "PRO203_Unidad_1.DataAccess\\Entities\\Videojuego.cs",
+              "ToolTip": "C:\\Repositorios\\pro203-repaso1\\PRO203_Unidad_1.DataAccess\\Entities\\Videojuego.cs",
+              "RelativeToolTip": "PRO203_Unidad_1.DataAccess\\Entities\\Videojuego.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T23:57:17.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Videojuego.cs",
+              "DocumentMoniker": "C:\\Repositorios\\pro203-repaso1\\PRO203_Unidad_1.Support\\Videojuego.cs",
+              "RelativeDocumentMoniker": "PRO203_Unidad_1.Support\\Videojuego.cs",
+              "ToolTip": "C:\\Repositorios\\pro203-repaso1\\PRO203_Unidad_1.Support\\Videojuego.cs",
+              "RelativeToolTip": "PRO203_Unidad_1.Support\\Videojuego.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T23:50:46.428Z",
               "EditorCaption": ""
             }
           ]

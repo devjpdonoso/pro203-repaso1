@@ -64,10 +64,10 @@ namespace PRO203_Unidad_1.DataAccess
             return value;
         }
 
-        public Videojuego ObtenerPorId(int id)
+        public Videojuego ObtenerPorId(string id)
         {
             Videojuego juego = new Videojuego();
-            string query = "SELECT * from Videojuegos where Identificador = " + id.ToString();
+            string query = "SELECT * from Videojuegos where Identificador = " + id;
             SqlConnection connection = new SqlConnection(_connectionString);
             SqlCommand command = new SqlCommand(query, connection);
             connection.Open();
